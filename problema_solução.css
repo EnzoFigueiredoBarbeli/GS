@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+header{
+    width: 100%;       
+  }
+.logo{
+  display: flex;
+  background-color: #E4EDED;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;   
+}
+.logo,h1{
+  font-size: 60px;
+  padding-left: 50px;
+  color: #068A86;
+}
+nav{
+    background-color: rgba(33, 34, 34, 0.075);
+    height: 50px;
+}
+.menu{
+    background-color: #068A86;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;    
+}
+.menu li {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    list-style-type: none;
+    height: 100%;
+}
+.borda {
+    color: #068A86;
+    border-left: 2px solid black;
+    padding-left: 300px;
+
+}  
+li a {
+    margin-top: 15px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.884);
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+
+main{   
+    width: 100%;
+    background-color: #D3E6F5; 
+    line-height:30px;
+    border-bottom: 7px solid black; 
+}
+
+main h2{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+main p{
+    font-size: 20px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+main img{
+    margin-left: 400px;
+    width: 700px;
+}
+main .acima{
+    margin-left: 320px;
+}
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 10px;
+}
+.links{
+    display: flex;
+    gap: 20px
+
+}
+.links a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.884);
+    font-size: 14px;
+    margin-top: 13px;
+    transition: color 0.5s ease;
+}
+.final{
+    display: flex;
+    gap: 20px;
+}
+.final p{
+    font-weight: bold;
+}
+
